@@ -1,0 +1,31 @@
+/**********
+ページのテンプレートレイアウト
+**********/
+
+.layout {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+.sub_content {
+  background-color: #840000;
+  width: 20vw;
+}
+
+.main_content {
+  width: 80vh;
+}
+
+/**********
+ヘッダー
+**********/
+
+.team_image {
+  width: 19vw;
+  height: 220px;
+}
+
+.sub_content {
+  text-align: center;
+}
