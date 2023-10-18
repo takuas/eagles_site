@@ -1,0 +1,32 @@
+/**********
+league_ranking.css
+**********/
+.current_page {
+    background-color: #c40000;
+  /* width: 20vw; */
+}
+
+.ranking_main{
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.ranking_pitcher{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.ranking_fielder{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+th,td {
+    border: solid 1px;  /* 枠線指定 */
+    padding: 10px;      /* 余白指定 */
+}
+
+table {
+    border-collapse:  collapse; /* セルの線を重ねる */
+}
+
