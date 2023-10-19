@@ -9,6 +9,7 @@ league_ranking.css
 .ranking_main{
     font-size: xx-large;
     font-weight: bold;
+    text-align: center;
 }
 
 .ranking_pitcher{
@@ -36,9 +37,58 @@ th,td {
 th{
     background-color: #b0c4de;
     font-weight: lighter;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
 }
 
-td{
-
+.ranking_rakuten{
+    background-color: #ff7f50;
 }
 
+/**********
+index.css
+**********/
+
+/**********
+ページのテンプレートレイアウト
+**********/
+
+.layout {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  .sub_content {
+    background-color: #840000;
+    width: 20vw;
+    height: 1200px;
+  }
+  
+  .main_content {
+    width: 80vh;
+  }
+  
+  /**********
+  ヘッダー
+  **********/
+  
+  .team_image {
+    width: 19vw;
+    height: 220px;
+  }
+  
+  .sub_content {
+    text-align: center;
+  }
+  
+  a{
+    display: block;
+    color: white;
+    font-size: 25px;
+    margin: 25px 0;
+    text-decoration: none;
+  }
+  
+  
+  
