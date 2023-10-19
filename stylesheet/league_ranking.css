@@ -14,23 +14,31 @@ league_ranking.css
 
 .ranking_pitcher{
     background-color: #dcdcdc;
-    margin: 20px;
+    margin: 20px 0;
     font-size: x-large;
     font-weight: bold;
 }
 
+.ranking_pitcher_table{
+    overflow-y: auto;
+}
+
 .ranking_fielder{
     background-color: #dcdcdc;
-    margin: 20px;
+    margin: 20px 0;
     font-size: x-large;
     font-weight: bold;
+}
+
+.ranking_fielder_table{
+    overflow-y: auto;
 }
 
 table {
     font-size: small;
     border-collapse:  collapse; /* セルの線を重ねる */
     table-layout: fixed;
-    white-space:nowrap;
+    white-space: nowrap;
     text-align: center;
 }
 
@@ -48,6 +56,14 @@ th{
 
 .ranking_rakuten{
     background-color: #ff7f50;
+}
+
+.left_main{
+    width: 5vw;
+}
+
+.right_main{
+    width: 5vw;
 }
 
 /**********
@@ -71,9 +87,9 @@ index.css
   }
   
   .main_content {
-    width: 80vh;
+    width: 70vw;
     text-align: center;
-    width: 2000px;
+    /* width: 1000px; */
 }
   
   /**********
