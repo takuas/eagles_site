@@ -10,11 +10,12 @@
 
 .sub_content {
   background-color: #840000;
-  width: 20vw;
+  width: 300px;
 }
 
 .main_content {
-  width: 80vh;
+  width: 1000px;
+  margin: 0px auto;
 }
 
 /**********
@@ -43,11 +44,9 @@ a{
 **********/
 
 table {
-  margin: 0px 140px;
-  width: 60vw;
+  width: 950px;
   border-collapse: collapse;
-  border-color: #7d7d7d;
-  border-width: 3px;
+  margin: 0px auto;
 }
 
 tr {
@@ -64,4 +63,12 @@ td {
 th {
   font-weight: 400;
   font-size: 20px;
+}
+
+td, th {
+  border: 1px solid #000;
+}
+
+.cell_background_color {
+  background-color: #FF9999;
 }
