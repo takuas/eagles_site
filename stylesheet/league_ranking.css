@@ -40,6 +40,27 @@ table {
     table-layout: fixed;
     white-space: nowrap;
     text-align: center;
+    width: 100%;
+}
+
+.ranking_rank{
+    width: 20px;
+}
+
+.ranking_team{
+    width: 110px;
+}
+
+.ranking_name{
+    width: 100px;
+}
+
+.ranking_data{
+    width: 35px;
+}
+
+.ranking_data_fraction{
+    width: 60px;
 }
 
 th,td {
