@@ -35,6 +35,9 @@ data.forEach(rowData => {
     if (cellIndex === 1 && cellData === "楽天イーグルス") {
       row.classList.add('cell_background_color');
     }
+    if (cellIndex >= 2 && cellIndex <= 12 ) {
+      cell.style.width = "60px"
+    }
     row.appendChild(cell);
   });
   table.appendChild(row);
