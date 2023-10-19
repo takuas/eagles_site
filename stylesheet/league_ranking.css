@@ -24,7 +24,8 @@ league_ranking.css
 table {
     border-collapse:  collapse; /* セルの線を重ねる */
     table-layout: fixed;
-    width: 1000px;
+    white-space:nowrap;
+    text-align: center;
 }
 
 th,td {
@@ -35,11 +36,9 @@ th,td {
 th{
     background-color: #b0c4de;
     font-weight: lighter;
-    writing-mode: vertical-rl;
-    text-orientation: upright;
 }
 
 td{
-    writing-mode: horizontal-tb;
+
 }
 
