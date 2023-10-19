@@ -6,16 +6,22 @@ league_ranking.css
 }
 
 .ranking_main{
+    background-color: black;
+    color: white;
     font-size: xx-large;
     font-weight: bold;
 }
 
 .ranking_pitcher{
+    background-color: #dcdcdc;
+    margin: 20px;
     font-size: x-large;
     font-weight: bold;
 }
 
 .ranking_fielder{
+    background-color: #dcdcdc;
+    margin: 20px;
     font-size: x-large;
     font-weight: bold;
 }
@@ -67,7 +73,7 @@ index.css
   .main_content {
     width: 80vh;
     text-align: center;
-    width: 80vw;
+    width: 2000px;
 }
   
   /**********
