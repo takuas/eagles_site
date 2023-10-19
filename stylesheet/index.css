@@ -37,3 +37,31 @@ a{
   margin: 25px 0;
   text-decoration: none;
 }
+
+/**********
+チーム順位のページ
+**********/
+
+table {
+  margin: 0px 140px;
+  width: 60vw;
+  border-collapse: collapse;
+  border-color: #7d7d7d;
+  border-width: 3px;
+}
+
+tr {
+  border: 3px solid #7d7d7d;
+  /* background-color: #FF9999; */
+}
+
+td {
+  background-color: beige;
+  text-align: center;
+  font-size: 20px;
+}
+
+th {
+  font-weight: 400;
+  font-size: 20px;
+}
