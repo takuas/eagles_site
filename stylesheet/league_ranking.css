@@ -101,15 +101,43 @@ th{
   }
 }
 
-.fixed{
+.fixed2, .fixed_rakuten2, .fixed_header2{
+  position: sticky;
+  left: 41px;
+  &:before{
+    content: "";
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    width: 100%;
+    height: 100%;
+    border: solid 1px;  /* 枠線指定 */
+  }
+}
+
+.fixed3, .fixed_rakuten3, .fixed_header3{
+  position: sticky;
+  left: 172px;
+  &:before{
+    content: "";
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    width: 100%;
+    height: 100%;
+    border: solid 1px;  /* 枠線指定 */
+  }
+}
+
+.fixed, .fixed2, .fixed3{
     background-color: white;
 }
 
-.fixed_rakuten{
+.fixed_rakuten, .fixed_rakuten2, .fixed_rakuten3{
     background-color: #ff7f50;
 }
 
-.fixed_header{
+.fixed_header, .fixed_header2, .fixed_header3{
   background: #b0c4de;
 }
 
