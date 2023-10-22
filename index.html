@@ -5,12 +5,14 @@
     <title>イーグルス戦績サイト</title>
     <link rel="stylesheet" type="text/css" href="stylesheet/index.css">
     <link rel="stylesheet" type="text/css" href="stylesheet/reset.css">
+    <script src="javascript/table_create.js"></script>
+    <script src="javascript/team_ranking.js"></script>
   </head>
   <body>
     <div class="layout">
       <div class="sub_content">
         <img class="team_image" src="images/team_image2.png" alt="楽天チームロゴ">
-        <a href="index.html">チーム順位</a>
+        <div class="select_content">チーム順位</div>
         <a href="#">投手成績</a>
         <a href="#">野手成績</a>
         <a href="#">
@@ -23,13 +25,9 @@
         <div class="index_title">楽天イーグルスファンのための戦績ポータル</div>
         <div class="index_sub_title">2023年のシーズンは4位</div>
         <div class="ranking_title">チーム順位表</div>
-        <div class="ranking_table" id="team_ranking">
-          <script src="Javascript/team_ranking.js"></script>
-        </div>
+        <div class="ranking_table" id="team_ranking"></div>      
         <div class="ranking_title">交流戦順位表</div>
-        <div class="ranking_table" id="Interleague_match">
-          <script src="Javascript/Interleague_match.js"></script>
-        </div>
+        <div class="ranking_table" id="Interleague_match"></div>
       </div>
     </div>
   </body>
