@@ -165,6 +165,13 @@ index.css
     margin: 0 auto;
   }
   
+  @media (max-width: 1300px) {
+    .main_ranking_content {
+      width: 840px;
+      text-align: center;
+      margin: 0 auto;
+    }
+  }
   /**********
   ヘッダー
   **********/
