@@ -1,0 +1,115 @@
+/**********
+ページのテンプレートレイアウト
+**********/
+
+.layout {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+.sub_content {
+  background-color: #840000;
+  width: 300px;
+  height: 1000px;
+  border: 5px solid #cab99b;
+  text-align: center;
+}
+
+.main_content {
+  width: 1161px;
+  
+}
+
+/**********
+ヘッダー
+**********/
+
+.team_image {
+  width: 280px;
+  height: 220px;
+  margin-top: 30px;
+}
+
+a{
+  display: block;
+  color: white;
+  font-size: 25px;
+  margin: 25px 0;
+  text-decoration: none;
+  border-top: 5px solid #cab99b;
+  border-bottom: 5px solid #cab99b;
+}
+
+.select_content {
+  background-color: #FF9933;
+  color: white;
+  font-size: 25px;
+  margin: 25px 0;
+  text-decoration: none;
+  border-top: 5px solid #cab99b;
+  border-bottom: 5px solid #cab99b;
+}
+
+/**********
+チーム順位のページ
+**********/
+
+.index_title {
+  font-size: 40px;
+  text-align: center;
+  background-color: darkgray;
+  color: white;
+}
+
+.index_sub_title {
+  font-size: 30px;
+  text-align: center;
+}
+
+.ranking_title {
+  font-size: 25px;
+  text-align: center;
+}
+/**********
+テーブル設定
+**********/
+
+.ranking_table {
+  margin: 0px auto;
+}
+
+table {
+  width: 950px;
+  border-collapse: collapse;
+  margin: 0px auto;
+}
+
+tr {
+  border: 3px solid #7d7d7d;
+  /* background-color: #FF9999; */
+}
+
+td {
+  background-color: beige;
+  text-align: center;
+  font-size: 20px;
+  writing-mode: vertical-rl;
+}
+
+th {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+td, th {
+  border: 1px solid #000;
+}
+
+.cell_background_color {
+  background-color: #FF9999;
+}
+
+.cell_size {
+  width: 20px;
+}
