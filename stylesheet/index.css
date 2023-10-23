@@ -17,8 +17,7 @@
 }
 
 .main_content {
-  width: 1161px;
-  
+  width: 1160px;
 }
 
 /**********
@@ -65,6 +64,7 @@ a{
 .index_sub_title {
   font-size: 30px;
   text-align: center;
+  margin-top: 50px;
 }
 
 .ranking_title {
