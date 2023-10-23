@@ -11,7 +11,7 @@
 .sub_content {
   background-color: #840000;
   width: 300px;
-  height: 1000px;
+  height: 1200px;
   border: 5px solid #cab99b;
   text-align: center;
 }
@@ -70,6 +70,10 @@ a{
 .ranking_title {
   font-size: 25px;
   text-align: center;
+  width: 950px;
+  background-color: #dcdcdc;
+  margin: 50px auto 10px auto;
+  border-radius: 10px;
 }
 /**********
 テーブル設定

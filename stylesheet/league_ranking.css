@@ -80,14 +80,6 @@ th{
     background-color: #ff7f50;
 }
 
-.left_main{
-    width: 5vw;
-}
-
-.right_main{
-    width: 5vw;
-}
-
 .fixed, .fixed_rakuten, .fixed_header{
   position: sticky;
   top: -1px;
@@ -170,8 +162,8 @@ index.css
   .main_ranking_content {
     width: 1000px;
     text-align: center;
-    /* width: 1000px; */
-}
+    margin: 0 auto;
+  }
   
   /**********
   ヘッダー
