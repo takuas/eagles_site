@@ -28,6 +28,11 @@ table {
     width: 100%;
 }
 
+th,td {
+    border: solid 1px;  /* 枠線指定 */
+    padding: 10px;      /* 余白指定 */
+}
+
 /**********
 index.css
 **********/
