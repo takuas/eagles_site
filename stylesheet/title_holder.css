@@ -1,4 +1,18 @@
 /**********
+title_holder.css
+**********/
+.current_page {
+    background-color: #c40000;
+}
+
+.title_holder_main{
+    background-color: black;
+    color: white;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+/**********
 index.css
 **********/
 
@@ -45,4 +59,3 @@ index.css
     text-decoration: none;
   }
 
-  
