@@ -33,6 +33,14 @@ th,td {
     padding: 10px;      /* 余白指定 */
 }
 
+.ranking_item{
+    width: 10vw;
+}
+
+.ranking_content{
+    width: 40vw;
+}
+
 /**********
 index.css
 **********/
