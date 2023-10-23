@@ -12,6 +12,13 @@ title_holder.css
     font-weight: bold;
 }
 
+.title_holder_name{
+    background-color: #dcdcdc;
+    margin: 20px 0;
+    font-size: x-large;
+    font-weight: bold;
+}
+
 /**********
 index.css
 **********/
