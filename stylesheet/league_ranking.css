@@ -159,14 +159,16 @@ index.css
     width: 100vw;
   }
   
-  .sub_content {
+  .sub_ranking_content {
     background-color: #840000;
-    width: 20vw;
+    width: 300px;
     height: 1200px;
+    border: 5px solid #cab99b;
+    text-align: center;
   }
   
-  .main_content {
-    width: 70vw;
+  .main_ranking_content {
+    width: 1000px;
     text-align: center;
     /* width: 1000px; */
 }
@@ -176,8 +178,9 @@ index.css
   **********/
   
   .team_image {
-    width: 19vw;
+    width: 280px;
     height: 220px;
+    margin-top: 30px;
   }
   
   .sub_content {
@@ -190,6 +193,8 @@ index.css
     font-size: 25px;
     margin: 25px 0;
     text-decoration: none;
+    border-top: 5px solid #cab99b;
+    border-bottom: 5px solid #cab99b;
   }
   
   
