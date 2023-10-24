@@ -12,33 +12,39 @@ title_holder.css
     font-weight: bold;
 }
 
-.title_holder_name{
-    background-color: #dcdcdc;
-    margin: 20px 0;
-    font-size: x-large;
+.title_holder_box{
+    border: 1px solid black;
+    width: 200px;
+    height: 126px;
+}
+
+.title_holder_index{
+    /* display: flex; */
+}
+
+.title_holder_plate{
+    margin: 30px 0 0 300px;
+    display: flex;
+}
+
+.title_image{
+    width: 100.8px;
+    height: 126px;
+}
+
+.name, .record{
+    text-align:left;
+}
+
+.title{
+    font-size: 20px;
     font-weight: bold;
 }
 
-table {
-    font-size: small;
-    border-collapse:  collapse; /* セルの線を重ねる */
-    table-layout: fixed;
-    white-space: nowrap;
-    text-align: center;
-    width: 100%;
-}
-
-th,td {
-    border: solid 1px;  /* 枠線指定 */
-    padding: 10px;      /* 余白指定 */
-}
-
-.ranking_item{
-    width: 10vw;
-}
-
-.ranking_content{
-    width: 40vw;
+.name{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
 }
 
 /**********
