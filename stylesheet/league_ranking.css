@@ -6,10 +6,10 @@ league_ranking.css
 }
 
 .ranking_main{
-    background-color: black;
-    color: white;
-    font-size: xx-large;
-    font-weight: bold;
+  background-color: black;
+  color: white;
+  font-size: xx-large;
+  font-weight: bold;
 }
 
 .ranking_pitcher{
@@ -78,14 +78,6 @@ th{
 
 .ranking_rakuten{
     background-color: #ff7f50;
-}
-
-.left_main{
-    width: 5vw;
-}
-
-.right_main{
-    width: 5vw;
 }
 
 .fixed, .fixed_rakuten, .fixed_header{
@@ -170,9 +162,16 @@ index.css
   .main_ranking_content {
     width: 1000px;
     text-align: center;
-    /* width: 1000px; */
-}
+    margin: 0 auto;
+  }
   
+  @media (max-width: 1300px) {
+    .main_ranking_content {
+      width: 840px;
+      text-align: center;
+      margin: 0 auto;
+    }
+  }
   /**********
   ヘッダー
   **********/

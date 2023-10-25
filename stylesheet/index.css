@@ -11,14 +11,14 @@
 .sub_content {
   background-color: #840000;
   width: 300px;
-  height: 1000px;
+  height: 1055px;
   border: 5px solid #cab99b;
   text-align: center;
 }
 
 .main_content {
-  width: 1161px;
-  
+  width: 1160px;
+  position: relative;
 }
 
 /**********
@@ -64,13 +64,45 @@ a{
 
 .index_sub_title {
   font-size: 30px;
-  text-align: center;
+    text-align: center;
+    margin: 16px auto 0 auto;
+    position: relative;
+    color: coral;
+    width: 519px;
 }
 
 .ranking_title {
   font-size: 25px;
   text-align: center;
+  width: 950px;
+  background-color: #dcdcdc;
+  margin: 30px auto 10px auto;
+  border-radius: 10px;
 }
+
+.index_number_title {
+  font-size: 50px;
+  color: black;
+}
+
+.ranking_second_title {
+  font-size: 25px;
+  text-align: center;
+  width: 950px;
+  background-color: #dcdcdc;
+  margin: 20px auto 10px auto;
+  border-radius: 10px;
+}
+
+.title_frame {
+  display: block;
+  margin: 10px auto 0 auto;
+  height: 100px;
+  width: 520px;
+  position: absolute;
+  top: -16px;
+}
+
 /**********
 テーブル設定
 **********/
