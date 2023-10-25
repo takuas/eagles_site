@@ -78,6 +78,7 @@ a{
   border : 1px solid #000;
   overflow-x: scroll;
   margin-left: 100px;
+  position: relative;
 }
 
 .pitcher_score::-webkit-scrollbar-thumb {
@@ -118,7 +119,6 @@ td {
     left: -1px;
     width: 100%;
     height: 100%;
-    border: 1px solid #ccc;
   }
 }
 .fixed01 {
@@ -132,17 +132,17 @@ td {
   color: #f6ab00;
   background-color: white;
   position: sticky;
-  left:86px;
-  border: 1px solid #ccc;
+  left:89.03px;
 }
 
 .player_name_sticky {
   position: sticky;
-  left:86px;
+  top: 0;
+  left:89.03px;
+  z-index: 3;
 }
 
 
 .string_number {
   background-color: white;
 }
-
