@@ -51,6 +51,9 @@ a{
   border-bottom: 5px solid #cab99b;
 }
 
+.current_page {
+  background-color: #c40000;
+}
 /**********************
 メインページ
 ***********************/
