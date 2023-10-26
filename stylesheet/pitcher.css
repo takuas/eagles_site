@@ -135,13 +135,13 @@ td {
   color: #f6ab00;
   background-color: white;
   position: sticky;
-  left:75.0px;
+  left:89.03px;
 }
 
 .player_name_sticky {
   position: sticky;
   top: 0;
-  left:75.0px;
+  left:89.03px;
   z-index: 3;
 }
 
