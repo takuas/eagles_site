@@ -64,11 +64,11 @@ a{
 
 .index_sub_title {
   font-size: 30px;
-    text-align: center;
-    margin: 16px auto 0 auto;
-    position: relative;
-    color: coral;
-    width: 519px;
+  text-align: center;
+  margin: 16px auto 0 auto;
+  position: relative;
+  color: coral;
+  width: 519px;
 }
 
 .ranking_title {
@@ -110,7 +110,6 @@ a{
 .ranking_table {
   margin: 0px auto;
   overflow-y: auto;
-  width: 500px;
 }
 
 table {
@@ -137,31 +136,28 @@ table {
   left: 277px;
 }
 
+.cell_rakuten_color {
+  background-color: #FF9999;
+}
+
 tr {
   border: 3px solid #7d7d7d;
   /* background-color: #FF9999; */
 }
 
 td {
-  background-color: beige;
   text-align: center;
   font-size: 20px;
   writing-mode: vertical-rl;
+  background-color: beige;
 }
 
 th {
   font-weight: 400;
   font-size: 20px;
+  background-color: white;
 }
 
 td, th {
   border: 1px solid #000;
-}
-
-.cell_background_color {
-  background-color: #FF9999;
-}
-
-.cell_size {
-  width: 20px;
 }
