@@ -1,61 +1,84 @@
-// 表のデータを作成する関数
-function createTableCell(cellData, cellIndex) {
-  const cell = document.createElement('th');
-  cell.textContent = cellData;
-
-  // 特定の項目だけセルサイズ変更
-  if (cellIndex === 0) {
-    cell.style.width = '60px';
-  }  else if (cellIndex >= 2 && cellIndex <= 12) {
-    cell.style.width = '60px';
-  }
-  return cell;
-}
-
 // 表の項目を作成する関数
-function createTableHeader(headerLabels) {
+function createTableHeader(table, headerLabels) {
   const headerRow = document.createElement('tr');
-  headerLabels.forEach(labelText => {
+
+  // 表の項目データを挿入
+  headerLabels.forEach((labelText, index) => {
     const headerCell = document.createElement('td');
+
+    // 特定のセルにクラスとセルのサイズを指定する（コード番号55）
+    cellClassGrant(headerCell,index)
+
     headerCell.textContent = labelText;
     headerRow.appendChild(headerCell);
   });
-  return headerRow;
-}
 
-// 表を作成する関数
-function createTable(data, headerLabels) {
-  // 表の作成
-  const table = document.createElement('table');
-
-  // 表の項目を作成
-  const headerRow = createTableHeader(headerLabels);
-  
   // 表に挿入する
   table.appendChild(headerRow);
-  
+
+  return table;
+}
+
+// 表のデータを作成する関数
+function createTableCell(table, data) {
   // 表のデータを作成
   data.forEach(rowData => {
     const row = document.createElement('tr');
     let rakuten = false;
-
+  
+    // セルにデータと設定を挿入
     rowData.forEach((cellData, cellIndex) => {
-      const cell = createTableCell(cellData, cellIndex);
+      const cell = document.createElement('th');
+      cell.textContent = cellData;
+      
+      // 特定のセルにクラスとセルのサイズを指定する（コード番号55）
+      cellClassGrant(cell, cellIndex)
+      
       // 特定の行だけ背景を変更する為の条件式
       if (cellIndex === 1 && cellData === '楽天イーグルス') {
         rakuten = true;
       }
       row.appendChild(cell);
     });
-
+  
     // 特定の行にクラスを追加し、背景を変更
     if (rakuten) {
       row.classList.add('cell_background_color');
     }
-
+  
     // 表に挿入する
     table.appendChild(row);
   });
+}
+
+// インデックス[2]までクラスを付与し、特定のセルのサイズを指定する関数
+function cellClassGrant(cellContent,cellIndex) {
+
+  // インデックス[2]までそれぞれクラスを付与する
+  const classNames = ['cell_top', 'cell_center', 'cell_right'];
+  if (cellIndex < classNames.length) {
+    cellContent.classList.add(classNames[cellIndex]);
+  }
+
+  // インデックス[0]から[2~12]のセルサイズ指定
+  if (cellIndex === 0 || (cellIndex >= 2 && cellIndex <= 12)) {
+    cellContent.style.width = '60px';
+  }
+  
+  return cellContent;
+}
+
+
+// 表を作成する関数
+function createTable(data, headerLabels) {
+  // 表の作成
+  const table = document.createElement('table');
+
+  // 表の項目を作成（コード番号2）
+ createTableHeader(table, headerLabels);
+  
+  // 表のデータを作成（コード番号23）
+  createTableCell(table, data)
 
   return table;
 }
