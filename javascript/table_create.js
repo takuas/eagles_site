@@ -67,8 +67,14 @@ function cellClassGrant(cellContent,cellIndex) {
     cellContent.classList.add(classNames[cellIndex]);
   }
 
+  // 特定のセルの条件に基づいてスタイルを設定
   if (cellContent.textContent === "HP" ) {
     cellContent.style.textOrientation = "upright";
+  }
+
+  // セルの内容にスラッシュが含まれている場合、フォントサイズを変更
+  if (/\//.test(cellContent.textContent)) {
+    cellContent.style.fontSize = "15px"
   }
 
   // インデックス[0]もしくは[2]以上のセルサイズ指定
