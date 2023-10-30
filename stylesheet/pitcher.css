@@ -84,12 +84,19 @@ a{
 
 .link_page {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  margin-top: 25px;
 }
 
 .link_page_btn {
   background-color: #c40000;
   color: white;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  height: 50px;
+  border-radius: 5px;
+  margin: 0 50px;
 }
 
 /**********************
