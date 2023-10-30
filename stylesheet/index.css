@@ -140,6 +140,10 @@ table {
   background-color: #FF9999;
 }
 
+.cell_size {
+  width: 60px;
+}
+
 tr {
   border: 3px solid #7d7d7d;
   /* background-color: #FF9999; */

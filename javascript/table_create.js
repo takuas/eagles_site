@@ -6,9 +6,9 @@ function createTableHeader(table, headerLabels) {
   headerLabels.forEach((labelText, index) => {
     const headerCell = document.createElement('td');
     // 特定のセルにクラスとセルのサイズを指定する（コード番号62）
+    headerCell.textContent = labelText;
     cellClassGrant(headerCell,index)
 
-    headerCell.textContent = labelText;
     headerRow.appendChild(headerCell);
   });
 
@@ -67,9 +67,13 @@ function cellClassGrant(cellContent,cellIndex) {
     cellContent.classList.add(classNames[cellIndex]);
   }
 
-  // インデックス[0]から[2~12]のセルサイズ指定
-  if (cellIndex === 0 || (cellIndex >= 2 && cellIndex <= 12)) {
-    cellContent.style.width = '60px';
+  if (cellContent.textContent === "HP" ) {
+    cellContent.style.textOrientation = "upright";
+  }
+
+  // インデックス[0]もしくは[2]以上のセルサイズ指定
+  if (cellIndex === 0 || (cellIndex >= 2)) {
+    cellContent.classList.add('cell_size')
   }
   
   return cellContent;
