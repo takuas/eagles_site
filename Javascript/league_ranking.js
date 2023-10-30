@@ -39,6 +39,6 @@ document.addEventListener("DOMContentLoaded", function() {
   const Batting_league_table = createTable(batting_league_record_data, headerBattingLeagueContent);
 
   // 作成した表を挿入する要素を取得する関数呼び出し
-  appendTableToContainer(Pitcher_league_table, 'Interleague_match');
-  appendTableToContainer(Batting_league_table, 'team_ranking');
+  appendTableToContainer(Pitcher_league_table, 'Pitcher_league_table');
+  appendTableToContainer(Batting_league_table, 'Batting_league_table');
 })
