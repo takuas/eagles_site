@@ -32,15 +32,17 @@
 }
 
 a{
+  text-decoration: none;
+}
+
+.link_content {
   display: block;
   color: white;
   font-size: 25px;
   margin: 25px 0;
-  text-decoration: none;
   border-top: 5px solid #cab99b;
   border-bottom: 5px solid #cab99b;
 }
-
 .select_content {
   background-color: #c40000;
   color: white;
@@ -69,6 +71,25 @@ a{
 .pitcher_score::-webkit-scrollbar {
   height: 10px;
   width: 10px;
+}
+
+.ranking_title {
+  font-size: 25px;
+  text-align: center;
+  width: 950px;
+  background-color: #dcdcdc;
+  margin: 30px auto 10px auto;
+  border-radius: 10px;
+}
+
+.link_page {
+  display: flex;
+  justify-content: space-around;
+}
+
+.link_page_btn {
+  background-color: #c40000;
+  color: white;
 }
 
 /**********************
