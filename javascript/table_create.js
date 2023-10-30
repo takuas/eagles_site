@@ -71,6 +71,9 @@ function cellClassGrant(cellContent,cellIndex) {
     cellContent.style.textOrientation = "upright";
   }
 
+  if (/\//.test(cellContent)) {
+
+  }
   // インデックス[0]もしくは[2]以上のセルサイズ指定
   if (cellIndex === 0 || (cellIndex >= 2)) {
     cellContent.classList.add('cell_size')
