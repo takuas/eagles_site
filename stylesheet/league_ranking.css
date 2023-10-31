@@ -230,7 +230,7 @@ table {
 .cell_center {
   position: sticky;
   top: 0;
-  left: 40.5px;
+  left: 64px;
   white-space: nowrap;
   padding: 0 10px;
   width: 110px;
@@ -238,7 +238,7 @@ table {
 .cell_right {
   position: sticky;
   top: 0;
-  left: 171px;
+  left: 244px;
   width:100px;
   white-space: nowrap;
 }
