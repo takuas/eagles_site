@@ -75,6 +75,7 @@ function cellClassGrant(cellContent,cellIndex) {
   // セルの内容にスラッシュが含まれている場合、フォントサイズを変更
   if (/\//.test(cellContent.textContent)) {
     cellContent.style.fontSize = "15px"
+    cellContent.style.whiteSpace = 'nowrap';
   }
 
   // インデックス[0]もしくは[2]以上のセルサイズ指定
